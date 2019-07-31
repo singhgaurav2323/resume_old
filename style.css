@@ -1,0 +1,248 @@
+@media screen and (max-width:800px){
+    .shape{
+        margin-top: 40px;
+        margin-bottom: 40px;    
+    }
+    .mainhead{
+        margin-top: 30px;
+    }
+    .rounded-circle{
+        margin-bottom: 45px;
+    }
+    .contact{
+        margin-bottom: 20px;
+    }
+    .subhead{
+        padding-top: 35px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid rgb(22, 17, 17);
+    }
+    .linehead{
+        padding-bottom: 12px;
+        border-bottom: 1px solid rgb(22, 17, 17);   
+    }
+    .cardone{
+        margin-left: 120px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardmid{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .swap{
+        margin-top:30px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width:890px){
+    .paddingmain{
+        padding-left: 250px;
+    }
+}
+
+.img{
+    width: 300px;
+    border-radius: 50% ;
+    border-block-end-color: cadetblue; 
+}
+
+.dot {
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: rgb(113, 111, 202);
+    color: #fff;
+    font: 15px ;
+}
+  
+.dot:hover{
+    background-color: rgb(31, 153, 106);
+}
+  
+.mid{
+    background-color: powderblue;
+}
+  
+.last{
+    background-color: rgb(59, 207, 79);
+}
+
+
+.bio{
+    margin-top:33px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.logo{
+    width: 250px;
+}
+  
+  
+
+ul > li {
+    display: table-cell;
+}
+
+.shape, h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    margin-top: 0px; 
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.logobig{
+    padding-left: 10px;
+}
+
+.aboutimg{
+    border: 1px solid rgb(61, 71, 163);
+    height: 250px;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+}
+
+.font h1, h5{
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.font h1{
+    color: rgb(144, 124, 165);
+}
+
+
+.line{
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(22, 17, 17);
+}
+
+.flip-card {
+    border-radius: 25px 60px 35px;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px 60px 35px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    padding-top: 10px;
+    padding-left: 35px;
+    background-color: rgb(224, 237, 240);
+    color: rgb(104, 83, 153);
+    transform: rotateY(180deg);
+  }
+
+.cardone{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.progress{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  
+  .prog{
+    margin-right: 15px;
+}
+  
+  
+.prog:hover{
+  width: 100px;
+  height: 200px;
+  background: red;
+  transition: width 2s;
+}
+
+.swap{
+    margin-bottom: 35px;
+}
+
+.imgsli{
+    width: 420px;
+    height: 220px;
+    
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color: rgb(113, 21, 218);
+    background-color: rgba(211, 13, 13, 0.3);
+}
+
+
+.dotproject {
+    background-color: rgb(124, 140, 175);
+    color: white;
+    border-radius: 50%;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    width: 80px;
+    
+    position: relative;
+  }
+  
+  
+  
+  .dotproject:hover{
+    background-color: rgb(44, 28, 73);
+  }
+  
+.lineend{
+    margin-top: 30px;
+    margin-bottom: 33px;
+    border-bottom: 3px solid rgb(22, 17, 17);
+    margin-right: 80px;
+    margin-left: 80px;
+}
