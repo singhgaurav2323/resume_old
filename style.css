@@ -19,10 +19,11 @@
     }
     .linehead{
         padding-bottom: 12px;
+        margin-right: 25px;
         border-bottom: 1px solid rgb(22, 17, 17);   
     }
     .cardone{
-        margin-left: 120px;
+        margin-left: 70px;
         margin-top: 30px;
         margin-bottom: 50px;
     }
@@ -33,6 +34,16 @@
     .swap{
         margin-top:30px;
         margin-bottom: 35px;
+    }
+    .additional{
+        margin-left: 10px;
+    }
+    .dotpad{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .top{
+        margin-top: 14px;
     }
 }
 
